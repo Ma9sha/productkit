@@ -9,7 +9,7 @@ import {
 } from "@barnardos/components";
 import React from "react";
 
-import Page from "../components/Page";
+import Page from "../components/Page";  
 
 export default () => (
   <Page title="Home">
@@ -45,6 +45,12 @@ export default () => (
         </ListItem>
         <ListItem>
           <Link href="/confirmation/">Confirmation</Link>
+        </ListItem>
+        <ListItem>
+          <Link href="/manisha/">Manisha Yoga</Link>
+        </ListItem>
+        <ListItem>
+          <Link href="/yoga/">Yoga</Link>
         </ListItem>
       </BulletedList>
       <SignpostLink href="https://github.com/barnardos/example-product">
