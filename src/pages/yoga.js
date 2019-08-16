@@ -11,10 +11,14 @@ import { withPrefix } from "gatsby";
 export default () => (
 <Page>
   <Main>
-  <Paragraph>You can input your comments here</Paragraph>
-  <TextArea id="textarea" label="Comments" size="30" verticalSize="5">
+  <Paragraph>You can enter Service details here</Paragraph>
+  <form name="service-info" action="/display" method="POST">
+  <TextArea id="textarea" label="Information" size="30" verticalSize="5">
   </TextArea>
   <Submit>Submit</Submit>
+  <Submit>Edit</Submit>
+  <Submit>Delete</Submit>
+  </form>
   </Main>
 </Page>
 );
